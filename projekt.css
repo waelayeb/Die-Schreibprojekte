@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Zain";
+    src: url("Zain-Regular.ttf") format("trutype"), url("Zain-Regular.woff") format("woff"), url("Zain-Regular.woff2") format("woff2"), ;
+}
 body {
     background-image: url("téléchargement.jpeg");
     background-repeat: no-repeat;
@@ -29,7 +33,7 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     color: whitesmoke;
     border-radius: 20px;
-    font-family: Zain;
+    font-family: "Zain", sans-serif;
     text-align: center;
 }
 .untitle {
@@ -48,7 +52,7 @@ body {
     border-radius: 20px;
     text-align: justify;
     white-space: pre-wrap;
-    font-family: Zain;
+    font-family: "Zain", sans-serif;
     flex: 2;
 }
 .invite {
@@ -64,7 +68,7 @@ body {
     border-radius: 20px;
     text-align: justify;
     white-space: pre-wrap;
-    font-family: Zain;
+    font-family: "Zain", sans-serif;
     flex: 2;
 }
 .antitle {
@@ -83,5 +87,5 @@ body {
     border-radius: 20px;
     text-align: justify;
     white-space: pre-wrap;
-    font-family: Zain;
+    font-family: "Zain", sans-serif;
 }
